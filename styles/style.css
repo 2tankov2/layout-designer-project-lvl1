@@ -2,7 +2,7 @@ body {
     min-width: 960px;
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', Arial, sans-serif;
     font-size: 18px;
     line-height: 24px;
     color: #000000;
@@ -10,6 +10,11 @@ body {
 
 a {
     text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
 }
 
 .visually-hidden:not(:focus):not(:active),
@@ -44,7 +49,7 @@ input[type="radio"].visually-hidden {
     align-items: center;
 }
 
-.main-nav__logo-wapper,
+.main-nav__logo-wrapper,
 .main-nav__list li {
     padding: 0 15px;
 }
@@ -63,16 +68,19 @@ input[type="radio"].visually-hidden {
 .main-nav__logo-text,
 .main-nav__list a {
     color: #000000;
+    font-size: 16px;
 }
 
 .main-nav__logo-text:hover,
-.main-nav__list a:hover {
+.main-nav__list a:hover,
+.main-nav__list a:focus {
     color: olivedrab;
 }
 
 .main-nav__list {
     margin: 0;
     padding: 0;
+    font-size: 16px;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -82,7 +90,7 @@ input[type="radio"].visually-hidden {
     padding-top: 80px;
 }
 
-.container {
+.main-info {
     width: 100%;
     font-weight: bold;
     color: #ffffff;
@@ -96,17 +104,17 @@ input[type="radio"].visually-hidden {
     background-position: 0 70%;
 }
 
-.container svg {
+.main-info svg {
     margin-top: 50px;
 }
 
-.container h1 {
+.main-info h1 {
     position: relative;
     margin-top: 20px;
     margin-bottom: 0;
 }
 
-.container p {
+.main-info p {
     margin-top: 10px;
 }
 
@@ -128,4 +136,50 @@ input[type="radio"].visually-hidden {
     color: #000000;
     background-color: #ffffff;
     border-color: #000000;
+}
+
+.features,
+.about-us,
+.info-rest {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.features-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.feature-item {
+    width: 310px;
+}
+
+.feature-item h2,
+.about-us h2,
+.info-rest h2 {
+    font-size: 23px;
+}
+
+.wrapper {
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.about-us,
+.info-rest {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-us__wrapper,
+.info-rest__wrapper {
+    width: 400px;
 }
