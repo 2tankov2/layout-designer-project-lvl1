@@ -55,6 +55,7 @@ input[type="radio"].visually-hidden {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     min-height: 50px;
     align-items: center;
 }
@@ -94,6 +95,7 @@ input[type="radio"].visually-hidden {
     list-style: none;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .page-main {
@@ -152,8 +154,7 @@ input[type="radio"].visually-hidden {
 .about-us,
 .info-rest {
     width: 1000px;
-    margin: 0 auto;
-    margin-top: 20px;
+    margin: 20px auto;
     font-size: 12px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -164,6 +165,7 @@ input[type="radio"].visually-hidden {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .feature-item {
@@ -181,6 +183,7 @@ input[type="radio"].visually-hidden {
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .about-us__wrapper,
@@ -202,6 +205,7 @@ input[type="radio"].visually-hidden {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 0 auto;
     font-size: 14px;
     font-weight: bold;
@@ -213,6 +217,7 @@ input[type="radio"].visually-hidden {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 0 auto;
     margin-left: 0;
     font-size: 14px;
@@ -265,3 +270,49 @@ input[type="radio"].visually-hidden {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.page-footer {
+    width: 100%;
+    background-color: #313736;
+    color: white;
+}
+
+.footer__wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+
+.footer-copywriter p {
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.copywriter__logo-text {
+    padding-left: 70px;
+    position: relative;
+}
+
+.copywriter__logo-text:before {
+    content: url(../images/logo.svg);
+    position: absolute;
+    left: 0;
+    top: -15px;
+}
+
+.docs-list,
+.about-list {
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+.docs-list a,
+.about-list a {
+    color: white;
+} 
