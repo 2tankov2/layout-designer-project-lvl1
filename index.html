@@ -80,6 +80,49 @@
                 <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
             </div>
         </section>
+        <div class="wrapper">
+            <section class="form-order">
+                <h2><a name="order">Оставьте заявку сегодня!</a></h2>
+                <h3 class="visually-hidden">Форма бронирования</h3>
+                <form action="" method="post">
+                    <fieldset class="form-order__parameters">
+                        <legend class="form-order__title">Параметры квартиры</legend>
+                        <div class="select__wrapper">
+                            <label for="room_number">Количество комнат:</label>
+                            <select name="room_number" id="room_number">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </div>
+                        <div class="select__wrapper">
+                            <label for="decoration">Отделка:</label>
+                            <select name="decoration" id="decoration">
+                                <option>Без отделки</option>
+                                <option>Евро-ремонт</option>
+                                <option>Ничего не отваливается</option>
+                            </select>
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-order__contacts">
+                        <legend class="form-order__title">Контактная информация</legend>
+                        <div class="input__wrapper">
+                            <label for="name_first">Имя:</label>
+                            <input type="text" id="name_first" name="name_first">
+                        </div>
+                        <div class="input__wrapper">
+                            <label for="tel">Телефон:</label>
+                            <input type="tel" id="tel" name="tel">
+                        </div>
+                        <div class="input__wrapper">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                    </fieldset>
+                    <button class="button-order button-order__submit" type="submit">Отправить</button>
+                </form>
+            </section>
+        </div>
     </main>
     <footer>
         Подвал!
