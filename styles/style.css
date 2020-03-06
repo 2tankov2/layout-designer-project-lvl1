@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
     color: #000000;
 }
@@ -43,11 +43,12 @@ input[type="radio"].visually-hidden {
     overflow: hidden;
 }
 
-.page-header {
+.fixed-header {
     margin: 0 auto;
     width: 100%;
     position: fixed;
     background-color: white;
+    top: 0;
 }
 
 .main-nav {
@@ -91,7 +92,6 @@ input[type="radio"].visually-hidden {
 .main-nav__list {
     margin: 0;
     padding: 0;
-    font-size: 16px;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -154,10 +154,9 @@ input[type="radio"].visually-hidden {
 .about-us,
 .info-rest {
     width: 1000px;
-    margin: 20px auto;
-    font-size: 12px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .features-list {
@@ -207,20 +206,18 @@ input[type="radio"].visually-hidden {
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0 auto;
-    font-size: 14px;
     font-weight: bold;
     padding: 5px;
 }
 
 .select__wrapper {
-    width: 300px;
+    width: 330px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0 auto;
     margin-left: 0;
-    font-size: 14px;
     font-weight: bold;
     padding: 5px;
 }
@@ -250,7 +247,6 @@ input[type="radio"].visually-hidden {
 .form-order input {
     border-radius: 8px;
     border-width: 1px;
-    font-size: 16px;
 }
 
 .form-order select {
@@ -289,7 +285,6 @@ input[type="radio"].visually-hidden {
 }
 
 .footer-copywriter p {
-    font-size: 12px;
     padding-top: 10px;
 }
 
@@ -307,7 +302,6 @@ input[type="radio"].visually-hidden {
 
 .docs-list,
 .about-list {
-    font-size: 12px;
     font-weight: bold;
     padding-left: 50px;
 }
