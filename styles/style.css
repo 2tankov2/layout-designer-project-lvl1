@@ -43,9 +43,42 @@ input[type="radio"].visually-hidden {
     overflow: hidden;
 }
 
+.pr-15 {
+    padding-right: 15px;
+}
+
+.pl-15 {
+    padding-left: 15px;
+}
+
+.pb-0 {
+    padding-bottom: 0;
+}
+
+.pt-0 {
+    padding-top: 0;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pt-80 {
+    padding-top: 80px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
 .fixed-header {
     margin: 0 auto;
     width: 100%;
+    min-height: 80px;
     position: fixed;
     background-color: white;
     top: 0;
@@ -61,11 +94,6 @@ input[type="radio"].visually-hidden {
     align-items: center;
 }
 
-.main-nav__logo-wrapper,
-.main-nav__list li {
-    padding: 0 15px;
-}
-
 .main-nav__logo {
     display: flex;
     justify-content: center;
@@ -73,33 +101,24 @@ input[type="radio"].visually-hidden {
     align-items: center;
 }
 
-.logo {
-    padding-right: 15px;
-} 
-
 .main-nav__logo-text,
-.main-nav__list a {
+.nav a {
     color: #000000;
     font-size: 16px;
 }
 
 .main-nav__logo-text:hover,
-.main-nav__list a:hover,
-.main-nav__list a:focus {
+.nav a:hover,
+.nav a:focus {
     color: olivedrab;
 }
 
-.main-nav__list {
+.nav {
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-}
-
-.page-main {
-    padding-top: 80px;
 }
 
 .main-info {
@@ -116,18 +135,10 @@ input[type="radio"].visually-hidden {
     background-position: 0 70%;
 }
 
-.main-info svg {
-    margin-top: 50px;
-}
-
 .main-info h1 {
     position: relative;
     margin-top: 20px;
     margin-bottom: 0;
-}
-
-.main-info p {
-    margin-top: 10px;
 }
 
 .button-order {
@@ -222,10 +233,6 @@ input[type="radio"].visually-hidden {
     padding: 5px;
 }
 
-.select__wrapper label {
-    padding-top: 10px;
-}
-
 .form-order__parameters,
 .form-order__contacts {
     display: flex;
@@ -282,10 +289,6 @@ input[type="radio"].visually-hidden {
     flex-wrap: wrap;
     padding-bottom: 70px;
     padding-top: 50px;
-}
-
-.footer-copywriter p {
-    padding-top: 10px;
 }
 
 .copywriter__logo-text {
