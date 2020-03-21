@@ -75,6 +75,14 @@ input[type="radio"].visually-hidden {
     margin-top: 50px;
 }
 
+.w-310 {
+    width: 310px;
+}
+
+.w-400 {
+    width: 400px;
+}
+
 .fixed-header {
     margin: 0 auto;
     width: 100%;
@@ -173,13 +181,8 @@ input[type="radio"].visually-hidden {
 .features-list {
     list-style: none;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.feature-item {
-    width: 310px;
 }
 
 .wrapper {
@@ -191,14 +194,8 @@ input[type="radio"].visually-hidden {
 .info-rest {
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-}
-
-.about-us__wrapper,
-.info-rest__wrapper {
-    width: 400px;
 }
 
 .form-order {
@@ -213,7 +210,6 @@ input[type="radio"].visually-hidden {
 
 .input__wrapper {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -224,7 +220,6 @@ input[type="radio"].visually-hidden {
 .select__wrapper {
     width: 330px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -284,7 +279,6 @@ input[type="radio"].visually-hidden {
     width: 1000px;
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     padding-bottom: 70px;
