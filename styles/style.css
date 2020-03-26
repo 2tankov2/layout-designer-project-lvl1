@@ -10,7 +10,7 @@ body {
     padding: 0;
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5em;
     color: var(--color-black);
 }
 
@@ -54,12 +54,12 @@ input[type="radio"].visually-hidden {
     overflow: hidden;
 }
 
-.pr-15 {
-    padding-right: 15px;
+.pr-20 {
+    padding-right: 20px;
 }
 
-.pl-15 {
-    padding-left: 15px;
+.pl-20 {
+    padding-left: 20px;
 }
 
 .pb-0 {
@@ -125,11 +125,12 @@ input[type="radio"].visually-hidden {
 .bg-color {
     background-color: #f1f1f1;
 }
-.all-w-100 {
+.section {
     width: 100%;
 }
 
 .fixed-header {
+    display: flex;
     margin: 0 auto;
     width: 100%;
     min-height: var(--height-header);;
@@ -150,18 +151,19 @@ input[type="radio"].visually-hidden {
     flex-wrap: wrap;
 }
 
-.main-info {
-    width: 100%;
-    font-weight: bold;
-    color: #ffffff;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.main-background {
     background-image: url(../images/banner.png);
     background-size: 2000px auto;
     background-repeat: no-repeat;
     background-position: 0 70%;
+    background-color: #313736;
+}
+
+.main-info {
+    font-weight: bold;
+    color: #ffffff;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main-info h1 {
@@ -176,7 +178,6 @@ input[type="radio"].visually-hidden {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px auto 30px auto;
     padding: 5px 0;
     color: #ffffff;
     background-color: transparent;
@@ -190,7 +191,7 @@ input[type="radio"].visually-hidden {
     border-color: #000000;
 }
 
-.block {
+.container {
     width: var(--content-width);
     margin: 0 auto;
     padding-top: 70px;
@@ -200,13 +201,8 @@ input[type="radio"].visually-hidden {
 }
 
 .form-order {
-    width: var(--content-width);
-    margin: 0 auto;
-    display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 30px;
 }
 
 .block-form {
@@ -258,7 +254,6 @@ input[type="radio"].visually-hidden {
 }
 
 .page-footer {
-    width: 100%;
     background-color: #313736;
     color: white;
 }
